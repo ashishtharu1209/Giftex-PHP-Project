@@ -24,6 +24,7 @@ session_start();
         color:black;
         margin:5%;
       }
+      
       .anime-start-1 {
       opacity: 0;
       transform: translate3d(-100px, 0, 0);
@@ -65,11 +66,12 @@ session_start();
    
    <body>
     <!--navigation bar-->
-      <div class="row navbar-fixed">
-         <nav class="black">
+      <div class="row navbar-fixed"> 
+
+         <nav class="pink lighten-1 ">
             <div class="nav-wrapper">
-               <a href="#" class="brand-logo">⎡GIFT_IT⎦</a>
-               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+               <a href="index.php" class="brand-logo">⎡GIFT_IT⎦</a>
+               <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons ">menu</i></a>
                <ul id="categories1" class="dropdown-content" databeloworigin="true">
                   <li><a href="category1.php" class="dropdown_link">Kids</a></li>
                   <li><a href="category2.php" class="dropdown_link">PhoneCase</a></li>
@@ -139,21 +141,21 @@ session_start();
     <div class="slider fullscreen slider_adjust">
         <ul class="slides">
           <li>
-            <img src="images/slidethree.jpg"> 
+            <img src="images/bg.jpg"> 
             <div class="caption left-align">
               <h3 class="white-text">Welcome To The GIFT-IT!</h3>
      
             </div>
           </li>
           <li>
-            <img src="images/rose.jpg"> 
-            <div class="caption right-align">
+            <img src="images/1.jpg"> 
+            <div class="caption left-align">
               <h3 class="white-text">Get Maximum Opportunities!</h3>
             
             </div>
           </li>
           <li>
-            <img src="images/slidethree.jpg"> 
+            <img src="images/gift.jpg"> 
             <div class="caption right-align">
               <h3 class="white-text" >Get Quick Delivery!</h3>
     
@@ -165,7 +167,7 @@ session_start();
       
       <!--About-->
       <div class="about" style="padding-top:500px;color:white;">
-      <h1>About US</h1>
+      <h1 style="font-family:ui-rounded;font-weight:100px;">About US</h1>
       <p style="color:white;font-size:25px;">
       This is ⎡GIFT_IT⎦. Welcome to our store. Maximum opportunites are offered on our website. Kindly look at our collection and order maximum products from our site.Safe banking and product tracking is also our feature.This is giftstore. Welcome to our store. Maximum opportunites are offered on our website. Kindly look at our collection and order maximum products from our site.Safe banking and product tracking is also our feature.Step into a world of boundless gifting possibilities with our gift shop.  Whether you're celebrating a birthday, anniversary, or simply spreading some joy, our virtual shelves are brimming with unique finds and timeless classics. With seamless browsing and swift delivery.
                     </p>
@@ -229,7 +231,7 @@ session_start();
           </div>
         </div>
         <div class="parallax card-panel pink lighten-4">
-          <img src="images/space.jpg" class="responsive-img">
+         
 
         </div>
       </div>
@@ -289,7 +291,6 @@ session_start();
           </div>
         </div>
         <div class="parallax card-panel pink lighten-4">
-          <img src="images/space.jpg" class="responsive-img">
 
         </div>
       </div>
@@ -302,11 +303,11 @@ session_start();
    
       <!-- Page Footer -->
       <div class="row" style="margin-top: -20px;">
-         <footer class="page-footer black white-text">
+         <footer class="page-footer pink lighten-1 white-text">
             <div class="row center-align">
                 <div class="col s12 m12 l12">
                   <h4><a href="index.php" class="footerlogo">⎡GIFT_IT⎦</h4>
-                  <!-- <p class="white-text">Information will be provided soon.</p> -->
+          
                 </div>
             </div>
             

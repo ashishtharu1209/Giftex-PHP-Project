@@ -6,7 +6,7 @@ $count=0;
 <!doctype html>
 <html>
 	<head>
-      <title>GiftStore</title>
+      <title>⎡GIFT_IT⎦</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"> 
       <!-- FONTS      -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
@@ -60,11 +60,10 @@ $count=0;
    </head>
    
    <body>
-   	<!--navigation bar-->
       <div class="row navbar-fixed">
-         <nav class="black">
+         <nav class="pink lighten-1">
             <div class="nav-wrapper">
-               <a href="#" class="brand-logo">GiftStore</a>
+               <a href="index.php" class="brand-logo">⎡GIFT_IT⎦</a>
                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                <ul id="categories1" class="dropdown-content" databeloworigin="true">
                   <li><a href="category1.php" class="dropdown_link">Kids</a></li>
@@ -118,7 +117,7 @@ $count=0;
             </div>
          </nav>
         </div>
-    <div class="gradient">
+    <div class="pink lighten-4">
     	<?php
     	$query="SELECT * FROM product_kids";
     	$result=mysqli_query($conn, $query);
@@ -134,13 +133,13 @@ $count=0;
 	  			}
 	  			$count=$count+1;
     	?>
-    		 <div class="col s12 l3">   
+    		 <div class="col s12 l3 ">   
     		    <form method="post" action="shopping_cart.php?action=add&id=<?php echo $row["id"];?>"><!--send data to-->
-    	          <div class="card small">
+    	          <div class="card" style="width: 30rem;">
     	          	<div class="card-image waves-effect waves-block waves-light">
 	    				      <img class="activator responsive-img" src="images/kids/<?php echo $row["img"];?>"/><br/>
 	    			      </div>
-	    			      <div class="card-content card_color black-text">
+	    			      <div class="card-content card_color black-text ">
         	    				<span class="card-title activator grey-text text-darken-4"><?php echo $row["name"];?><i class="material-icons right">more_vert</i></span>
         	    				<h6 class="text-danger">RS <?php echo $row["price"];?></h6>
         	    				<span class="card_font"><input type="submit" class="card_button" value="Add To Cart" name="add_to_cart"></span>
@@ -150,7 +149,7 @@ $count=0;
         	    				<input type="hidden" name="hidden_category" value="kids">
         	    				<input type="hidden" name="item_quantity" value="1">
     			        </div>
-    			        <div class="card-reveal">
+    			        <div class="card-reveal ">
         							<span class="card-title grey-text text-darken-4">Kids Table<i class="material-icons right">close</i></span>
         							<p>Here is some more information about this product that is only revealed once clicked on.</p>
 					        </div>
@@ -174,10 +173,10 @@ $count=0;
       </div>
      <!-- Page Footer -->
       <div class="row" style="margin-top:-20px">
-         <footer class="page-footer black white-text">
+         <footer class="page-footer pink lighten-1 white-text">
             <div class="row center-align">
                 <div class="col s12 m12 l12">
-                  <h4><a href="index.php" class="footerlogo">GiftStore</a></h4>
+                  <h4><a href="index.php" class="footerlogo">⎡GIFT_IT⎦</a></h4>
                   <!-- <p class="white-text">Information will be provided soon.</p> -->
                 </div>
             </div>
@@ -196,7 +195,7 @@ $count=0;
               </div>
               <div class="row center-align marginReduce footer-copyright" style="margin-bottom:-20px;">
                <div id="footertext" class="col s12 m12 l12">
-                  &copy 2018 Copyright Text .All Rights reserved.
+                  &copy 2024 Copyright Text .All Rights reserved.
                </div>
             </div>
          </footer>

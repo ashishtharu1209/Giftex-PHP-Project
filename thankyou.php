@@ -7,7 +7,7 @@ $unique_id = time() . mt_rand();
 ?>
 <html>
    <head>
-      <title>GiftStore/ThankYou</title>
+      <title>⎡GIFT_IT⎦</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"> 
       <!-- FONTS      -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
@@ -30,7 +30,7 @@ $unique_id = time() . mt_rand();
       <div class="row navbar-fixed">
          <nav class="black">
             <div class="nav-wrapper">
-               <a href="index.php" class="brand-logo">GiftStore</a>
+               <a href="index.php" class="brand-logo">⎡GIFT_IT⎦</a>
                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul id="dropdown10" class="dropdown-content dropdown_link">
                    

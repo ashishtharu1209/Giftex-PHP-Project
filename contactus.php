@@ -19,7 +19,7 @@ $conn=mysqli_connect('127.0.0.1','root','giftstore');
 <!DOCTYPE html>
 <html>
    <head>
-      <title>GiftStore</title>
+      <title>⎡GIFT_IT⎦</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"> 
       <!-- FONTS      -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
@@ -79,9 +79,9 @@ $conn=mysqli_connect('127.0.0.1','root','giftstore');
    <body>
       <!--navigation bar-->
       <div class="row navbar-fixed">
-         <nav class="black">
+         <nav class="pink lighten-1">
             <div class="nav-wrapper">
-               <a href="#" class="brand-logo">GiftStore</a>
+               <a href="#" class="brand-logo">⎡GIFT_IT⎦</a>
                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                <ul id="categories1" class="dropdown-content" databeloworigin="true">
                   <li><a href="category1.php" class="dropdown_link">Kids</a></li>
@@ -183,11 +183,11 @@ $conn=mysqli_connect('127.0.0.1','root','giftstore');
       </div>
       <!-- Page Footer -->
       <div class="row" style="margin-top:-20px">
-         <footer class="page-footer black white-text">
+         <footer class="page-footer pink lighten-1 white-text">
             <div class="row center-align">
                 <div class="col s12 m12 l12">
-                  <h4><a href="index.php" class="footerlogo">GiftStore</a></h4>
-                  <span><a href="#" class="link">Developed By Sayali Pawar</a></span>
+                  <h4><a href="index.php" class="footerlogo">⎡GIFT_IT⎦</a></h4>
+                  <span><a href="#" class="link"></a></span>
                   <!-- <p class="white-text">Information will be provided soon.</p> -->
                 </div>
             </div>
@@ -206,7 +206,7 @@ $conn=mysqli_connect('127.0.0.1','root','giftstore');
               </div>
               <div class="row center-align marginReduce footer-copyright" style="margin-bottom:-20px;">
                <div id="footertext" class="col s12 m12 l12">
-                  &copy 2018 Copyright Text .All Rights reserved.
+                  &copy 2024 Copyright Text .All Rights reserved.
                </div>
             </div>
          </footer>

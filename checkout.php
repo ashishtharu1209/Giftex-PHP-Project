@@ -31,7 +31,7 @@ $sql13="INSERT INTO checkout (name,email,phone,address,card_name,card_no,exp_yea
 <!DOCTYPE html>
 <html>
    <head>
-      <title>GiftStore</title>
+      <title>⎡GIFT_IT⎦</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"> 
       <!-- FONTS      -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
@@ -92,7 +92,7 @@ $sql13="INSERT INTO checkout (name,email,phone,address,card_name,card_no,exp_yea
       <div class="row navbar-fixed">
          <nav class="black">
             <div class="nav-wrapper">
-               <a href="#" class="brand-logo">GiftStore</a>
+               <a href="#" class="brand-logo">⎡GIFT_IT⎦</a>
                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                <ul id="categories1" class="dropdown-content" databeloworigin="true">
                   <li><a href="category1.php" class="dropdown_link">Kids</a></li>

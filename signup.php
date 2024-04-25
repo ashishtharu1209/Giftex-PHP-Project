@@ -33,7 +33,7 @@ $uerror=$fname=$lname=$phone=$email="";
 <!DOCTYPE html>
 <html>
    <head>
-      <title>GiftStore</title>
+      <title>⎡GIFT_IT⎦</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"> 
       <!-- FONTS      -->
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
@@ -103,9 +103,9 @@ $uerror=$fname=$lname=$phone=$email="";
    <body>
     <!--navigation bar-->
       <div class="row navbar-fixed">
-         <nav class="black">
+         <nav class="pink lighten-1">
             <div class="nav-wrapper">
-               <a href="#" class="brand-logo">GiftStore</a>
+               <a href="index.php" class="brand-logo">⎡GIFT_IT⎦</a>
                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                <ul id="categories1" class="dropdown-content" databeloworigin="true">
                   <li><a href="category1.php" class="dropdown_link">Kids</a></li>
@@ -150,7 +150,7 @@ $uerror=$fname=$lname=$phone=$email="";
                 </form> 
                </ul>
                <ul class="side-nav" id="mobile-demo">
-                <li><a href="index.php" class="side_logo left-align">GiftStore</a></li>
+                <li><a href="index.php" class="side_logo left-align">⎡GIFT_IT⎦</a></li>
                 <hr>
                 <li><a href="index.php" class="side_nav">Home</a></li>
                 <li><a href="aboutus.php" class="side_nav">About Us</a></li>
@@ -253,7 +253,7 @@ $uerror=$fname=$lname=$phone=$email="";
          <footer class="page-footer black white-text">
             <div class="row center-align">
                 <div class="col s12 m12 l12">
-                  <h4><a href="index.html" class="footerlogo">GiftStore</a></h4>
+                  <h4><a href="index.html" class="footerlogo">⎡GIFT_IT⎦</a></h4>
                   <!-- <p class="white-text">Information will be provided soon.</p> -->
                 </div>
             </div>
@@ -272,7 +272,7 @@ $uerror=$fname=$lname=$phone=$email="";
               </div>
             <div class="row center-align marginReduce footer-copyright" style="margin-bottom:-20px;">
                <div id="footertext" class="col s12 m12 l12">
-                  &copy 2018 Copyright Text .All Rights reserved.
+                  &copy 2024 Copyright Text .All Rights reserved.
                </div>
             </div>
          </footer>
